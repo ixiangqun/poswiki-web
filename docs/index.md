@@ -1,174 +1,186 @@
-# POSWIKI 战略定位知识库 · 主索引
-
-> **维护规则**：本文件由 LLM 自动更新。每次新增条目后同步刷新本索引。人工不直接编辑。
-
+---
+layout: doc
 ---
 
-## 统计概览
+<script setup>
+import KnowledgeGraph from './.vitepress/components/KnowledgeGraph.vue'
+</script>
 
-| 分类 | 条目数 | 最近更新 |
-|------|--------|----------|
-| 概念词条 | 10 | 2026-04-05 |
-| 分析框架 | 4 | 2026-04-05 |
-| 章节笔记 | 68 | 2026-04-05 |
-| 案例库 | 49 | 2026-04-05 |
+# 定位词典
 
-**总词条**：131 | **原始来源**：4个来源（《定位》22章+前言+序 + 《商战》17章+后记+序 + 特劳特咨询案例库P1批次6个 + 《营销22条铁律》序+22章）
+整个定位理论、实践框架、商业历史战役与阅读笔记交织成一张互相连接的知识图谱。当前收录 **114 个核心节点**。所有概念、公司案例均能一键溯源。
 
----
+<ClientOnly><KnowledgeGraph /></ClientOnly>
 
-## 概念词条 `/wiki/concepts/`
+<details open class="index-section">
+  <summary><h2>概念词条</h2></summary>
 
-> 特劳特·里斯定位理论的核心概念，逐条解构，含反向链接。
+> 理解特劳特与里斯定位理论的核心基石。
+<div class="index-grid">
+  <a class="index-tag" href="/concepts/命名战略">命名战略</a>
+  <a class="index-tag" href="/concepts/品牌延伸陷阱">品牌延伸陷阱</a>
+  <a class="index-tag" href="/concepts/品类战略">品类战略</a>
+  <a class="index-tag" href="/concepts/商业将领特质">商业将领特质</a>
+  <a class="index-tag" href="/concepts/四种战略形式">四种战略形式</a>
+  <a class="index-tag" href="/concepts/定位理论概述">定位理论概述</a>
+  <a class="index-tag" href="/concepts/差异化原则">差异化原则</a>
+  <a class="index-tag" href="/concepts/心智阶梯">心智阶梯</a>
+  <a class="index-tag" href="/concepts/重新定位战略">重新定位战略</a>
+  <a class="index-tag" href="/concepts/领导者定位原则">领导者定位原则</a>
+</div>
+</details>
 
-| 词条 | 核心命题（一句话） | 关键数据点 |
-|------|-------------------|------------|
-| [定位理论概述](定位理论概述.md) | 在顾客心智中找到独特位置，而非改变产品本身 | 施乐多元化损失8440万美元 |
-| [心智阶梯](心智阶梯.md) | 每个品类在心智中是有序梯子，第三名以下几乎不存在 | 安飞士份额28%→36%后转盈 |
-| [品类战略](品类战略.md) | 无法赢得现有梯子时，创建新品类自动成为第一 | 可口可乐Mr. Pibb vs 胡椒博士=6:1败 |
-| [领导者定位原则](领导者定位原则.md) | 强化品类价值，而非宣告排名 | 喜力放弃领导者定位→科罗娜反超 |
-| [品牌延伸陷阱](品牌延伸陷阱.md) | 一个名字代表两件事，跷跷板法则必然使一边下降 | 亨氏腌菜→番茄酱，Vlasic夺走腌菜领导权 |
-| [差异化原则](差异化原则.md) | 差异化落在单一可信可传播的概念上 | FedEx"隔夜必达"创建品类并主导 |
-| [命名战略](命名战略.md) | 名字是心智与品牌之间唯一的钩子 | Head & Shoulders直接与"去屑"绑定 |
-| [重新定位战略](重新定位战略.md) | 移动竞争者的心智位置，而非仅声明自己的优势 | 泰诺重定位阿司匹林→止痛药品类第一 |
-| [四种战略形式](四种战略形式.md) | 市场地位决定战略形式，防御/进攻/侧翼/游击四种形式不可混用 | 可口可乐防御战失误→新可乐79天撤回 |
-| [商业将领特质](商业将领特质.md) | 将领制定并执行正确战略，与鼓舞士气的"领导者"是不同角色 | 克劳塞维茨：千人之中或仅一人能胜任将领 |
+<details open class="index-section">
+  <summary><h2>案例库</h2></summary>
 
----
+> 涵盖半个世纪以来的残酷商战与定位实践。
+<div class="index-grid">
+  <a class="index-tag" href="/cases/benson-hedges-100mm">B&H vs Pall Mall — 后来者用独立品牌夺走100毫米香烟品类第一</a>
+  <a class="index-tag" href="/cases/dec-minicomputer">DEC 小型电脑 — 不正面攻击IBM，开创新品类成为世界第二</a>
+  <a class="index-tag" href="/cases/rca-computer">RCA 电脑 — 正面进攻 IBM 损失 2.5 亿美元</a>
+  <a class="index-tag" href="/cases/twa-abbreviation-trap">TWA 无名陷阱 — 年广告费3000万美元，缩写拖累认知效率</a>
+  <a class="index-tag" href="/cases/tab-vs-diet-pepsi">Tab vs 健怡百事 — 独立品牌击败品牌延伸名</a>
+  <a class="index-tag" href="/cases/tasters-choice-vs-maxim">Taster's Choice vs 麦氏典藏 — 独立品牌2倍销量击败品牌延伸</a>
+  <a class="index-tag" href="/cases/7up-uncola">七喜（7-Up）— "非可乐"关联定位成为全球第三大软饮料</a>
+  <a class="index-tag" href="/cases/marlboro-cowboy">万宝路（Marlboro）— 10年从第五升至第一的性别空位战略</a>
+  <a class="index-tag" href="/cases/eastern-airlines-name">东方航空（Eastern Airlines）— 地域性名字导致38%旅客回避率</a>
+  <a class="index-tag" href="/cases/heinz-pickle-ketchup">亨氏（Heinz）— 腌菜品类领导者换赛道，拱手相让给Vlasic</a>
+  <a class="index-tag" href="/cases/intensive-care-vs-jergens">倍护（Intensive Care）vs 杰根斯 — 独立品牌销量超越三款延伸产品之和</a>
+  <a class="index-tag" href="/cases/chrysler-iacocca-turnaround">克莱斯勒·艾柯卡 — 濒临破产到行业翻身的侧翼战</a>
+  <a class="index-tag" href="/cases/coca-cola-2to1-rule">可口可乐 vs 百事可乐 — 2:1 领导者份额比例法则</a>
+  <a class="index-tag" href="/cases/nyquil-nighttime">可宝（Nyquil）— 发现"夜间感冒药"空位成为品类第一</a>
+  <a class="index-tag" href="/cases/goodrich-name-confusion">固特里奇（Goodrich）— 56%顾客把创新归功于竞争对手</a>
+  <a class="index-tag" href="/cases/volkswagen-beetle">大众甲壳虫（VW Beetle）— 定位崛起后品牌延伸导致67%跌至3%</a>
+  <a class="index-tag" href="/cases/milk-duds-longevity">奶球（Milk Duds）— 重新定位糖果棒，用"吃得久"抢占空位</a>
+  <a class="index-tag" href="/cases/monsanto-chemistry">孟山都（Monsanto）— "生命的化学真相"为整个行业重建认知</a>
+  <a class="index-tag" href="/cases/avis-car-rental">安飞士（Avis）— "我们是第二，所以我们更努力"扭亏为盈</a>
+  <a class="index-tag" href="/cases/pg-vs-colgate">宝洁 vs 高露洁–棕榄 — 独立品牌战略带来2倍营收、3倍利润</a>
+  <a class="index-tag" href="/cases/packard-clipper">帕卡德（Packard）— 推出低价车型摧毁"尊贵"定位，1958年倒闭</a>
+  <a class="index-tag" href="/cases/new-coke-failure">新可乐失败 — 领导者防御战的系统性错误</a>
+  <a class="index-tag" href="/cases/xerox-computer-failure">施乐电脑（Xerox Computer）— 跷跷板法则导致8440万美元损失</a>
+  <a class="index-tag" href="/cases/belgium-five-amsterdams">比利时旅游定位 — "五个阿姆斯特丹"策略因管理层更替功亏一篑</a>
+  <a class="index-tag" href="/cases/burger-king-vs-mcdonalds">汉堡王 vs 麦当劳 — "烤制，非油炸"进攻战</a>
+  <a class="index-tag" href="/cases/volvo-safety">沃尔沃（Volvo）— 稀释"安全"定位后销量下滑，重聚焦后回升40万辆</a>
+  <a class="index-tag" href="/cases/tylenol-repositioning">泰诺（Tylenol）— 重新定位阿司匹林，夺得止痛药第一</a>
+  <a class="index-tag" href="/cases/pepsi-challenge">百事挑战（Pepsi Challenge）— 口味测试重新定位可口可乐</a>
+  <a class="index-tag" href="/cases/miller-lite">米勒淡啤（Miller Lite）— 找到空位却死于命名失误与品牌延伸</a>
+  <a class="index-tag" href="/cases/john-connally-campaign">约翰·康纳利（John Connally）— 1100万美元只换来1张选票</a>
+  <a class="index-tag" href="/cases/gm-vs-amc-profitability">通用汽车 vs 美国汽车公司 — 领导者份额49%却享有不对称利润</a>
+  <a class="index-tag" href="/cases/mailgram-positioning">邮递电报（Mailgram）— "低价电报"定位驱动年收入增长26倍</a>
+  <a class="index-tag" href="/cases/long-island-trust">长岛信托银行 — 15个月从末位跃升第一的本地化定位</a>
+</div>
+</details>
 
-## 分析框架 `/wiki/frameworks/`
+<details open class="index-section">
+  <summary><h2>分析框架</h2></summary>
 
-> 可复用的定位分析模板与决策工具。
+> 实用的诊断模板与竞争环境沙盘推演模型。
+<div class="index-grid">
+  <a class="index-tag" href="/frameworks/定位六问决策框架">定位六问决策框架</a>
+  <a class="index-tag" href="/frameworks/定位决策框架">定位决策框架：成功六步曲</a>
+  <a class="index-tag" href="/frameworks/定位诊断模板">定位诊断模板</a>
+  <a class="index-tag" href="/frameworks/竞争地图">竞争地图框架</a>
+</div>
+</details>
 
-| 框架 | 用途 |
-|------|------|
-| [定位诊断模板](定位诊断模板.md) | 六步标准化诊断，从心智审计到执行风险评估 |
-| [竞争地图](竞争地图.md) | 可视化竞争格局，识别定位空白区 |
-| [定位六问决策框架](定位六问决策框架.md) | 里斯·特劳特原著六问，从诊断到执行的决策链 |
-| [定位决策框架](定位决策框架.md) | 成功六步曲完整操作化版本，含判断标准与陷阱提示 |
+<details open class="index-section">
+  <summary><h2>章节阅读笔记</h2></summary>
 
----
+> 对经典战略定位原著书籍的深度研读解构。
 
-## 章节笔记 `/wiki/notes/`
+<details open class="index-subsection">
+  <summary><h3>《定位：争夺用户心智的战争》</h3></summary>
 
-> **《定位》** 全22章 + **《商战》** 引言+16章，逐章提炼，含核心主张、关键案例、金句与章节联系。
+<div class="index-grid">
+  <a class="index-tag" href="/notes/ch00-前言">前言：定位的起源与定义</a>
+  <a class="index-tag" href="/notes/ch05-定位的本质">第1章：定位的本质</a>
+  <a class="index-tag" href="/notes/ch06-心智遭受信息轰炸">第2章：心智遭受信息轰炸</a>
+  <a class="index-tag" href="/notes/ch07-进入心智">第3章：进入心智</a>
+  <a class="index-tag" href="/notes/ch08-心智中的小阶梯">第4章：心智中的小阶梯</a>
+  <a class="index-tag" href="/notes/ch09-此路不通">第5章：此路不通</a>
+  <a class="index-tag" href="/notes/ch10-领导者的定位">第6章：领导者的定位</a>
+  <a class="index-tag" href="/notes/ch11-跟随者的定位">第7章：跟随者的定位</a>
+  <a class="index-tag" href="/notes/ch12-重新定位竞争对手">第8章：重新定位竞争对手</a>
+  <a class="index-tag" href="/notes/ch13-名字的威力">第9章：名字的威力</a>
+  <a class="index-tag" href="/notes/ch14-无名陷阱">第10章：无名陷阱</a>
+  <a class="index-tag" href="/notes/ch15-搭便车陷阱">第11章：搭便车陷阱</a>
+  <a class="index-tag" href="/notes/ch16-品牌延伸陷阱">第12章：品牌延伸陷阱</a>
+  <a class="index-tag" href="/notes/ch17-品牌延伸何时有效">第13章：品牌延伸何时有效</a>
+  <a class="index-tag" href="/notes/ch18-企业定位-孟山都">第14章：企业定位——孟山都</a>
+  <a class="index-tag" href="/notes/ch19-国家定位-比利时">第15章：国家定位——比利时</a>
+  <a class="index-tag" href="/notes/ch20-产品定位-奶球">第16章：产品定位——奶球</a>
+  <a class="index-tag" href="/notes/ch21-服务定位-邮递电报">第17章：服务定位——邮递电报</a>
+  <a class="index-tag" href="/notes/ch22-银行定位-长岛信托">第18章：为长岛银行定位</a>
+  <a class="index-tag" href="/notes/ch23-机构定位-天主教会">第19章：为天主教会定位</a>
+  <a class="index-tag" href="/notes/ch24-个人及事业定位">第20章：个人及事业定位</a>
+  <a class="index-tag" href="/notes/ch25-成功六步曲">第21章：成功六步曲</a>
+  <a class="index-tag" href="/notes/ch26-定位素养">第22章：定位素养</a>
+</div>
+</details>
 
-### 《定位》里斯·特劳特
+<details open class="index-subsection">
+  <summary><h3>《商战》</h3></summary>
 
-| 章节 | 主题 | 关键词 |
-|------|------|--------|
-| [ch05-定位的本质](ch05-定位的本质.md) | 由外而内思维 | 心智、认知即现实 |
-| [ch06-心智遭受信息轰炸](ch06-心智遭受信息轰炸.md) | 传播过度时代 | 880美元/年广告费、4万SKU |
-| [ch07-进入心智](ch07-进入心智.md) | 第一胜过更好 | 广告三时代、第一品牌记忆率 |
-| [ch08-心智中的小阶梯](ch08-心智中的小阶梯.md) | 心智容量有限 | 魔力数字七、FWMTS陷阱 |
-| [ch09-此路不通](ch09-此路不通.md) | 正面进攻必败 | RCA、DEC |
-| [ch10-领导者的定位](ch10-领导者的定位.md) | 强化品类价值 | 2:1比例法则、宝洁多品牌 |
-| [ch11-跟随者的定位](ch11-跟随者的定位.md) | 六类心智空位 | 甲壳虫、万宝路、埃德塞尔 |
-| [ch12-重新定位竞争对手](ch12-重新定位竞争对手.md) | 移动对手位置 | 泰诺、百事挑战、品客配料表 |
-| [ch13-名字的威力](ch13-名字的威力.md) | 名字是心智钩子 | 东方航空、固特里奇、Lite |
-| [ch14-无名陷阱](ch14-无名陷阱.md) | 缩略名音节陷阱 | GE vs WU、心智靠耳朵运转 |
-| [ch15-搭便车陷阱](ch15-搭便车陷阱.md) | 跷跷板法则 | 施乐电脑8440万、宝洁2倍利润 |
-| [ch16-品牌延伸陷阱](ch16-品牌延伸陷阱.md) | 延伸者失败模式 | Pall Mall、Taster's Choice |
-| [ch17-品牌延伸何时有效](ch17-品牌延伸何时有效.md) | 三幕悲剧+5条原则 | 大众甲壳虫67%→3% |
-| [ch18-企业定位-孟山都](ch18-企业定位-孟山都.md) | 行业领先战略 | 化工行业支持率36%→42% |
-| [ch19-国家定位-比利时](ch19-国家定位-比利时.md) | 国家/地点定位 | 五个阿姆斯特丹、米其林三星 |
-| [ch20-产品定位-奶球](ch20-产品定位-奶球.md) | 重新定位竞争品类 | "当糖果棒已成追忆，奶球还没吃完" |
-| [ch21-服务定位-邮递电报](ch21-服务定位-邮递电报.md) | 低价电报vs速递信件 | 年收入300万→8000万 |
-| [ch22-银行定位-长岛信托](ch22-银行定位-长岛信托.md) | 语义差异调研 | "为什么把钱存到纽约市？" |
-| [ch23-机构定位-天主教会](ch23-机构定位-天主教会.md) | 执行阻力 | 显而易见的答案最难被接受 |
-| [ch24-个人及事业定位](ch24-个人及事业定位.md) | 个人定位五匹马 | 雷·克洛克、约翰·韦恩 |
-| [ch25-成功六步曲](ch25-成功六步曲.md) | 定位项目决策框架 | 六步自检清单 |
-| [ch26-定位素养](ch26-定位素养.md) | 七大素养+内外部导向 | 远见/勇气/客观/简单/敏锐/耐心/全球视角 |
+<div class="index-grid">
+  <a class="index-tag" href="/notes/sw-ch01-长达2500年的战争史">商战·第1章：长达2500年的战争史</a>
+  <a class="index-tag" href="/notes/sw-ch02-兵力原则">商战·第2章：兵力原则</a>
+  <a class="index-tag" href="/notes/sw-ch03-防御优势原则">商战·第3章：防御优势原则</a>
+  <a class="index-tag" href="/notes/sw-ch04-竞争新时代">商战·第4章：竞争新时代</a>
+  <a class="index-tag" href="/notes/sw-ch05-战地的本质">商战·第5章：战地的本质</a>
+  <a class="index-tag" href="/notes/sw-ch06-战略形式">商战·第6章：战略形式</a>
+  <a class="index-tag" href="/notes/sw-ch07-防御战">商战·第7章：防御战</a>
+  <a class="index-tag" href="/notes/sw-ch08-进攻战">商战·第8章：进攻战</a>
+  <a class="index-tag" href="/notes/sw-ch09-侧翼战">商战·第9章：侧翼战</a>
+  <a class="index-tag" href="/notes/sw-ch10-游击战">商战·第10章：游击战</a>
+  <a class="index-tag" href="/notes/sw-ch11-可乐战">商战·第11章：可乐战</a>
+  <a class="index-tag" href="/notes/sw-ch12-啤酒战">商战·第12章：啤酒战</a>
+  <a class="index-tag" href="/notes/sw-ch13-汉堡战">商战·第13章：汉堡战</a>
+  <a class="index-tag" href="/notes/sw-ch14-计算机战">商战·第14章：计算机战</a>
+  <a class="index-tag" href="/notes/sw-ch15-战略和战术">商战·第15章：战略和战术</a>
+  <a class="index-tag" href="/notes/sw-ch16-商业将领">商战·第16章：商业将领</a>
+  <a class="index-tag" href="/notes/sw-ch17-后记">后记：华尔街——大品牌失败的真正推手</a>
+  <a class="index-tag" href="/notes/sw-引言-商业即战争">商战·引言：商业即战争</a>
+</div>
+</details>
 
-### 《商战》里斯·特劳特
+<details open class="index-subsection">
+  <summary><h3>《22条商规 (营销22条铁律)》</h3></summary>
 
-| 章节 | 主题 | 关键词 |
-|------|------|--------|
-| [sw-引言-商业即战争](sw-引言-商业即战争.md) | 商业竞争与军事战略同构 | 克劳塞维茨、战场在心智 |
-| [sw-ch01-长达2500年的战争史](sw-ch01-长达2500年的战争史.md) | 战略服从于战术 | 拿破仑炮兵→皇帝、巴顿坦克 |
-| [sw-ch02-兵力原则](sw-ch02-兵力原则.md) | 在决定性地点集中优势兵力 | 集中 vs 分散 |
-| [sw-ch03-防御优势原则](sw-ch03-防御优势原则.md) | 防御方天然具有战略优势 | 进攻需3:1兵力优势 |
-| [sw-ch04-竞争新时代](sw-ch04-竞争新时代.md) | 商战时代企业需要新战略思维 | 全球化竞争格局 |
-| [sw-ch05-战地的本质](sw-ch05-战地的本质.md) | 战场是顾客心智，而非货架或工厂 | 心智即战场 |
-| [sw-ch06-战略形式](sw-ch06-战略形式.md) | 四种战略形式的适用条件 | 防御/进攻/侧翼/游击 |
-| [sw-ch07-防御战](sw-ch07-防御战.md) | 领导者自我攻击与封锁原则 | 宝洁Liquid Tide、新可乐失败 |
-| [sw-ch08-进攻战](sw-ch08-进攻战.md) | 攻击领导者强势中的弱点 | 安飞士28%→36%、泰诺 |
-| [sw-ch09-侧翼战](sw-ch09-侧翼战.md) | 在无争地带开辟新维度 | 七喜8770万→1.9亿、米勒淡啤 |
-| [sw-ch10-游击战](sw-ch10-游击战.md) | 找足够小的山头做第一 | 区域银行、专业杂志 |
-| [sw-ch11-可乐战](sw-ch11-可乐战.md) | 防御战正反案例完整演示 | 新可乐→Coca-Cola Classic |
-| [sw-ch12-啤酒战](sw-ch12-啤酒战.md) | 淡啤侧翼战与商标陷阱 | 米勒淡啤→Bud Light压制 |
-| [sw-ch13-汉堡战](sw-ch13-汉堡战.md) | 快餐业进攻战与侧翼战 | 汉堡王"火烤"vs麦当劳 |
-| [sw-ch14-计算机战](sw-ch14-计算机战.md) | 侧翼战绕开IBM的成败对比 | DEC小型机成功、RCA正面攻失败 |
-| [sw-ch15-战略和战术](sw-ch15-战略和战术.md) | 战略必须从战术中生长 | 战略服从于战术 |
-| [sw-ch16-商业将领](sw-ch16-商业将领.md) | 商战需要将领而非单纯领导者 | 五大特质：灵活/决断/魄力/知识/原则 |
+<div class="index-grid">
+  <a class="index-tag" href="/notes/il-ch00-序言">序言：营销铁律的由来</a>
+  <a class="index-tag" href="/notes/il-ch01-领导者定律">第1章：领导者定律（The Law of Leadership）</a>
+  <a class="index-tag" href="/notes/il-ch02-品类定律">第2章：品类定律（The Law of the Category）</a>
+  <a class="index-tag" href="/notes/il-ch03-心智定律">第3章：心智定律（The Law of the Mind）</a>
+  <a class="index-tag" href="/notes/il-ch04-认知定律">第4章：认知定律（The Law of Perception）</a>
+  <a class="index-tag" href="/notes/il-ch05-专注定律">第5章：专注定律（The Law of Focus）</a>
+  <a class="index-tag" href="/notes/il-ch06-排他定律">第6章：排他定律（The Law of Exclusivity）</a>
+  <a class="index-tag" href="/notes/il-ch07-阶梯定律">第7章：阶梯定律（The Law of the Ladder）</a>
+  <a class="index-tag" href="/notes/il-ch08-二元定律">第8章：二元定律（The Law of Duality）</a>
+  <a class="index-tag" href="/notes/il-ch09-对立定律">第9章：对立定律（The Law of the Opposite）</a>
+  <a class="index-tag" href="/notes/il-ch10-分化定律">第10章：分化定律（The Law of Division）</a>
+  <a class="index-tag" href="/notes/il-ch11-长效定律">第11章：长效定律（The Law of Perspective）</a>
+  <a class="index-tag" href="/notes/il-ch12-品牌延伸定律">第12章：品牌延伸定律（The Law of Line Extension）</a>
+  <a class="index-tag" href="/notes/il-ch13-牺牲定律">第13章：牺牲定律（The Law of Sacrifice）</a>
+  <a class="index-tag" href="/notes/il-ch14-属性定律">第14章：属性定律（The Law of Attributes）</a>
+  <a class="index-tag" href="/notes/il-ch15-坦诚定律">第15章：坦诚定律（The Law of Candor）</a>
+  <a class="index-tag" href="/notes/il-ch16-唯一定律">第16章：唯一定律（The Law of Singularity）</a>
+  <a class="index-tag" href="/notes/il-ch17-不可预测定律">第17章：不可预测定律（The Law of Unpredictability）</a>
+  <a class="index-tag" href="/notes/il-ch18-成功定律">第18章：成功定律（The Law of Success）</a>
+  <a class="index-tag" href="/notes/il-ch19-失败定律">第19章：失败定律（The Law of Failure）</a>
+  <a class="index-tag" href="/notes/il-ch20-炒作定律">第20章：炒作定律（The Law of Hype）</a>
+  <a class="index-tag" href="/notes/il-ch21-趋势定律">第21章：趋势定律（The Law of Acceleration）</a>
+  <a class="index-tag" href="/notes/il-ch22-资源定律">第22章：资源定律（The Law of Resources）</a>
+</div>
+</details>
 
----
+<details open class="index-subsection">
+  <summary><h3>综合 / 序言与其他</h3></summary>
 
-## 案例库 `/wiki/cases/`
+<div class="index-grid">
+  <a class="index-tag" href="/notes/shared-序一-定位第三次生产力革命">序一：定位——第三次生产力革命</a>
+  <a class="index-tag" href="/notes/shared-序一-第三次生产力革命">序一：定位——第三次生产力革命</a>
+  <a class="index-tag" href="/notes/shared-序二-定位理论发展阶段">序二：定位理论——中国制造向中国品牌转型的关键</a>
+</div>
+</details>
 
-> 真实商战案例，按"问题诊断 → 定位方案 → 执行结果"三段结构编写。
-> 完整案例索引见：[案例库索引](cases/_cases_index.md)
-
-| 案例 | 行业 | 核心数据点 |
-|------|------|-----------|
-| [安飞士](cases/avis-car-rental\.md) | 汽车租赁 | 亏损13年→第1年+120万美元；份额28%→36% |
-| [七喜·非可乐](cases/7up-uncola\.md) | 软饮料 | 净销售额8770万→1.9亿美元 |
-| [RCA电脑](cases/rca-computer\.md) | 科技 | 正面攻IBM亏损2.5亿美元 |
-| [泰诺重定位](cases/tylenol-repositioning\.md) | 药品 | 重新定位阿司匹林→止痛药第一品牌 |
-| [邮递电报](cases/mailgram-positioning\.md) | 通信服务 | 年收入300万→8000万（26倍）|
-| [长岛信托](cases/long-island-trust\.md) | 银行 | 15个月从末位升至认知第一 |
-| [万宝路](cases/marlboro-cowboy\.md) | 香烟 | 10年从全国第五升至第一 |
-| [大众甲壳虫](cases/volkswagen-beetle\.md) | 汽车 | 进口车份额67%→12%→3% |
-| [孟山都](cases/monsanto-chemistry\.md) | 化工 | 行业公众支持率36%→42% |
-| [施乐电脑](cases/xerox-computer-failure\.md) | 办公设备 | 退出时亏损8440万美元 |
-| [米勒淡啤](cases/miller-lite\.md) | 啤酒 | 丧失"Lite"商标，被Bud Light压制 |
-| [宝洁vs高露洁](cases/pg-vs-colgate\.md) | 日化 | 51品牌营收2倍、利润3倍（对手65品牌）|
-| [大众甲壳虫](cases/volkswagen-beetle\.md) | 汽车 | 三幕悲剧完整演示 |
-| *（完整39个案例见 _cases_index）* | | |
-
----
-
-## 知识图谱（核心链接关系）
-
-```
-定位理论概述
-├── 心智阶梯 ──→ 品类战略
-├── 领导者定位原则 ──→ 品牌延伸陷阱
-├── 差异化原则 ──→ 命名战略
-└── 重新定位战略
-
-框架层
-├── 定位六问决策框架 ──→ [所有概念]
-├── 定位诊断模板 ──→ [执行工具]
-└── 竞争地图 ──→ [可视化工具]
-```
-
----
-
-### 《营销22条铁律》里斯·特劳特
-
-| 章节 | 主题 | 关键词 |
-|------|------|--------|
-| [il-ch04-认知定律](il-ch04-认知定律.md) | 认知即现实 | 心智战、感知、无客观事实 |
-| [il-ch05-专注定律](il-ch05-专注定律.md) | 拥有一个词 | 聚焦、FedEx隔夜、Heinz 50%份额 |
-| [il-ch06-排他定律](il-ch06-排他定律.md) | 一词只能被一家拥有 | Volvo安全、FedEx vs DHL |
-| [il-ch07-阶梯定律](il-ch07-阶梯定律.md) | 梯级决定战略 | 安飞士第二名、阶梯位置 |
-| [il-ch08-二元定律](il-ch08-二元定律.md) | 市场演化为两强 | 可口可乐60%→45%、百事25%→40% |
-| [il-ch09-对立定律](il-ch09-对立定律.md) | 第二名战略由领导者决定 | 百事一代、Newsweek vs Time |
-| [il-ch10-分化定律](il-ch10-分化定律.md) | 品类持续分化 | 电脑品类、汽车品类、啤酒品类 |
-| [il-ch11-长效定律](il-ch11-长效定律.md) | 短期与长期效果相反 | Seamans破产、汽车返利下滑 |
-| [il-ch12-品牌延伸定律](il-ch12-品牌延伸定律.md) | 延伸压力不可抗拒 | IBM $65B收入-$28B亏损 |
-| [il-ch13-牺牲定律](il-ch13-牺牲定律.md) | 要得到必须放弃 | FedEx $880M收购/21个月亏$11B |
-| [il-ch14-属性定律](il-ch14-属性定律.md) | 每属性都有对立有效属性 | Crest防蛀vs其他牙膏属性 |
-| [il-ch15-坦诚定律](il-ch15-坦诚定律.md) | 承认负面换来正面 | Smucker's、VW丑陋、Joy最贵 |
-| [il-ch16-唯一定律](il-ch16-唯一定律.md) | 只有一步棋能产生实质结果 | 诺曼底登陆类比 |
-| [il-ch17-不可预测定律](il-ch17-不可预测定律.md) | 未来不可预测 | IBM OfficeVision失败 |
-| [il-ch18-成功定律](il-ch18-成功定律.md) | 成功→自大→失败 | 特朗普品牌延伸、日本集体决策 |
-| [il-ch19-失败定律](il-ch19-失败定律.md) | 失败可以预期和接受 | 沃尔玛试验文化、日本企业文化 |
-| [il-ch20-炒作定律](il-ch20-炒作定律.md) | 现实与媒体报道相反 | 新可乐$10亿曝光失败、NeXT |
-| [il-ch21-趋势定律](il-ch21-趋势定律.md) | 趋势而非流行 | Coleco破产、芭比vs忍者神龟 |
-| [il-ch22-资源定律](il-ch22-资源定律.md) | 好主意需要足够资金 | Apple $9.1万启动、Scoop Away |
-
----
-
-*最后编译时间：2026-04-05 | 编译来源：《定位》里斯·特劳特 epub · 22章+30案例；《商战》里斯·特劳特 epub · 17章笔记+2概念+3案例；特劳特咨询案例库 P1批次 · 6个真实咨询战役（Southwest/DBS/Broadway Bank/Bajaj/AGCO/Adams Golf）；《营销22条铁律》里斯·特劳特 epub · 22章笔记+6案例*
+</details>

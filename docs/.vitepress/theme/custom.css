@@ -1,0 +1,201 @@
+:root {
+  /* Minimalist monochrome and precise blue accents */
+  --vp-c-brand-1: #2563eb;
+  --vp-c-brand-2: #1d4ed8;
+  --vp-c-brand-3: #1e40af;
+  --vp-c-brand-soft: rgba(37, 99, 235, 0.08);
+  
+  --vp-c-text-1: #111827;
+  --vp-c-text-2: #4b5563;
+  --vp-c-text-3: #9ca3af;
+  
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f9fafb;
+  --vp-c-bg-soft: #f3f4f6;
+
+  /* Classic reading typography */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+.dark {
+  --vp-c-brand-1: #60a5fa;
+  --vp-c-brand-2: #3b82f6;
+  --vp-c-brand-3: #2563eb;
+  --vp-c-brand-soft: rgba(96, 165, 250, 0.12);
+  
+  --vp-c-text-1: #f3f4f6;
+  --vp-c-text-2: #d1d5db;
+  --vp-c-text-3: #9ca3af;
+  
+  --vp-c-bg: #111827;
+  --vp-c-bg-alt: #1f2937;
+  --vp-c-bg-soft: #374151;
+}
+
+/* 隐藏鼠标划过大标题时出现的默认 "#" 锚点符号 */
+.header-anchor {
+  display: none !important;
+}
+
+/* 玻璃拟物化顶部导航 - 极简极夜风格 */
+.VPNav {
+  background: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+.dark .VPNav {
+  background: rgba(17, 24, 39, 0.8) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+/* 隐藏鼠标划过大标题时出现的默认 "#" 锚点符号 */
+.header-anchor {
+  display: none !important;
+}
+
+h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--vp-c-text-1);
+}
+
+h2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-top: 2rem !important;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--vp-c-bg-soft);
+  border-top: none !important; /* 强制干掉 VitePress 默认加在 h2 上面的那条丑陋的短横线 */
+}
+
+/* 百科首页交互折叠标题样式 */
+.index-section {
+  border-bottom: 1px solid var(--vp-c-bg-soft);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+.index-section > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+.index-section > summary::-webkit-details-marker {
+  display: none;
+}
+.index-section > summary h2 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+  display: inline-block;
+}
+.index-section > summary::before {
+  content: '▶';
+  display: inline-block;
+  margin-right: 0.8rem;
+  font-size: 0.7em;
+  color: var(--vp-c-text-3);
+  transition: transform 0.2s ease;
+}
+details[open].index-section > summary::before {
+  transform: rotate(90deg);
+}
+
+/* 子级折叠板块功能 (服务于书籍等 h3 级别) */
+.index-subsection {
+  margin-top: 1.5rem;
+}
+.index-subsection > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+.index-subsection > summary::-webkit-details-marker {
+  display: none;
+}
+.index-subsection > summary h3 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
+  display: inline-block;
+}
+.index-subsection > summary::before {
+  content: '▶';
+  display: inline-block;
+  margin-right: 0.6rem;
+  font-size: 0.6em;
+  color: var(--vp-c-text-3);
+  transition: transform 0.2s ease;
+}
+details[open].index-subsection > summary::before {
+  transform: rotate(90deg);
+}
+
+/* 优化引用块：像维基百科或书籍侧注 */
+blockquote {
+  border-left: 3px solid var(--vp-c-brand-1) !important;
+  background: var(--vp-c-bg-soft);
+  padding: 1rem 1.5rem !important;
+  border-radius: 4px;
+  color: var(--vp-c-text-2) !important;
+  font-size: 0.95em;
+  margin: 1.5rem 0;
+}
+
+/* 百科索引条目标签样式 (类似于 [内在价值83]) */
+.index-tag {
+  display: inline-block;
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  padding: 0.4rem 0.8rem;
+  margin: 0.4rem 0.5rem 0.4rem 0;
+  border-radius: 6px;
+  font-size: 0.95em;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+.index-tag:hover {
+  background-color: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+  transform: translateY(-1px);
+}
+.index-tag-count {
+  font-size: 0.85em;
+  color: var(--vp-c-text-3);
+  margin-left: 6px;
+  font-weight: 500;
+}
+
+/* 首页特殊容器布局以支持高密度展现 */
+.index-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* 表格优化为极简财务表格式样式 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+th {
+  background: var(--vp-c-bg-soft);
+  font-weight: 600;
+  text-align: left;
+}
+th, td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--vp-c-bg-soft);
+}
+tr:hover td {
+  background-color: var(--vp-c-brand-soft);
+}
