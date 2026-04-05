@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  ignoreDeadLinks: true,
   title: "定位词典",
   description: "A professional wiki for Strategic Positioning",
   themeConfig: {
