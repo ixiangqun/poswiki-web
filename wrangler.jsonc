@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "poswiki-web",
+  "compatibility_date": "2026-04-06",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "_static"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}

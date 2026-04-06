@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,8 @@
   "dependencies": {
     "echarts": "^6.0.0",
     "vitepress": "^1.6.4"
+  },
+  "devDependencies": {
+    "wrangler": "^4.80.0"
   }
 }
